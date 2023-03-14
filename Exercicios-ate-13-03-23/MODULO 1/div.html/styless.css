@@ -1,0 +1,27 @@
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.allDivs {
+    border: 3px solid  #000000;
+    border-radius: 20px;
+    text-align: center;
+}
+#div1 {
+    background-color: #ad000e;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+#div2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+#div3 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    color: white;
+}

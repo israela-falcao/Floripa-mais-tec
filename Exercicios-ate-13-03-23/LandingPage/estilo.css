@@ -1,0 +1,14 @@
+body{
+
+background-image: url(fundo.png.suave.png); 
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+font-size: 18px;}
+

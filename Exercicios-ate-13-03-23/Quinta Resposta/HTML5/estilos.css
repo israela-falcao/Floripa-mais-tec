@@ -1,0 +1,20 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(250, 243, 243);
+    text-align: center;
+    background-image: url(img3.jpg);
+    background-color: #ccadad;
+}
+body{
+    background-color: orange;
+    }
+
+p{
+    font-size: 14px;
+}
+button{
+    padding: 10px;
+    border:solid 2px color black;
+    margin: 25px;
+}

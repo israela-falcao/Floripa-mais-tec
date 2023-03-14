@@ -1,0 +1,19 @@
+#nome{
+    color: aquamarine;
+    
+    font-size: 25px;
+}
+#idade{
+ color: blueviolet;
+
+ font-size: 25px;
+}
+
+#cidade{
+color: red;
+
+font-size: 25px;
+}
+body{
+    background-color: rgb(245, 211, 166);
+}

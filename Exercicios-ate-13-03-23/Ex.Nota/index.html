@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario de notas</title>
+</head>
+<body>
+    <h1>Formulário de notas</h1>
+    <form>
+        <label for="fname">Primeira Nota:</label><br>
+        <input type="text" id="nota1"><br><br>
+        <label for="lname">Segunda Nota:</label><br>
+        <input type="text" id="nota2"><br><br>
+        <label for="lname">Terceira Nota:</label><br>
+        <input type="text" id="nota3"><br><br>
+        <input type="button" value="Submit" onclick="media()">
+      </form> 
+      
+      <p id="notas"></p>
+      
+      <script>
+      
+      document.querySelector("form").addEventListener("submit", function(event) {
+          event.preventDefault();
+      
+          let nota1 = parseInt(document.querySelector('#nota1').value);
+          let nota2 = parseInt(document.querySelector('#nota2').value);
+          let nota3 = parseInt(document.querySelector('#nota3').value);
+          media=(nota1+nota2+nota3)/3;
+      
+          console.log("A média é: " + media);
+          });
+          </script>
+</body>
+
+</html>
